@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  helloworld3:
+    build: helloworld
+    ports:
+      - "80:80"
+  
